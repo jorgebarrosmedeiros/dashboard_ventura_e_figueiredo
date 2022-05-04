@@ -1,5 +1,6 @@
 #importando as bibliotecas
 from urllib import response
+
 from matplotlib.pyplot import bar
 from help_functions import data_transform, calculos, convert_data_frame
 import streamlit as st
@@ -20,7 +21,7 @@ locale.setlocale(locale.LC_ALL, 'pt_BR')
 
 def main():
 	# front end elements of the web page 
-    st.sidebar.image("image/file.png")
+    st.sidebar.image("file.png")
 
     job_filter = st.sidebar.selectbox("Páginas", ['Balancete','Dashboard'])
 
