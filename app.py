@@ -1,6 +1,5 @@
 #importando as bibliotecas
 from urllib import response
-
 from matplotlib.pyplot import bar
 from help_functions import data_transform, calculos, convert_data_frame
 import streamlit as st
